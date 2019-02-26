@@ -62,9 +62,8 @@ elements.searchResPages.addEventListener('click', e => {
 });
 
 
-/** 
- * RECIPE CONTROLLER
- */
+// RECIPE CONTROLLER
+
 const controlRecipe = async () => {
     // Get ID from url
     const id = window.location.hash.replace('#', '');
